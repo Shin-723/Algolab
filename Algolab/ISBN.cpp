@@ -131,17 +131,12 @@ bool check(string A)
 	
 }
 int main(){
-	int t;
-	cin >> t;
-	for(int i=0; i< t; i++)
-	{
 		
-		string A;
-		cin >> A;
-		if(check(A))
-		{
-			cout << 1 << endl;
-		}
-		else cout << 0 << endl;
+	string A;
+	cin >> A;
+	if(check(A))
+	{
+		cout << 1 << endl;
 	}
+	else cout << 0 << endl;
 }
